@@ -1,0 +1,57 @@
+/* controle do formato */
+.menu{
+
+    background-color: rgba(0, 0, 0, 0.332);    
+    display: flex;
+    justify-content: center;
+    padding: 3.7vh;
+    z-index: 0;
+    
+}
+
+/* list config */
+.menu ul{
+
+    list-style-type: none;
+    display: flex;
+    
+
+}
+
+.menu a{
+    
+    color: gold;       
+    text-decoration: none; 
+
+}
+
+.menu a:hover{
+
+    color: ghostwhite;
+}
+
+
+/* itens positions & styles */
+
+
+.mid_menu{
+
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.right_menu{
+      
+    position: absolute;
+    right: 40;
+}
+
+.left_menu{
+    
+    position: absolute;
+    left: 40;
+}
+
+
+
