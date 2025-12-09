@@ -33,8 +33,9 @@ export default function Menu(){
                     <nav>
                         <ul className={styles.right_menu}>
                             <li ><a href=",">b</a></li>
-                            <li><Button variant="destructive" size="lg" className="rounded-full">Botão</Button> </li>
+                            <li ><a href=",">b</a></li>
                         </ul>
+                           
                     </nav>
             </section>
         
