@@ -6,7 +6,7 @@ export default function Hero(){
         <div  className={styles.hero}> 
 
 
-
+                <h1> AQUI E O HERO </h1>
 
 
 
