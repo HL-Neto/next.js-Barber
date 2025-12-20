@@ -1,6 +1,25 @@
 .hero{
     background-color: red;
     padding: 20%;
-
-
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+.center_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo{
+    width: 35%;
+    max-width: 280px;
+    height: auto;
+    opacity: 0.95;
+}
+
+

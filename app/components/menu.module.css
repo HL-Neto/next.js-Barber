@@ -1,13 +1,23 @@
 /* controle do formato */
 .menu{
 
-    background-color: rgba(0, 0, 0, 0.332);    
+    background-color: hsl(0, 0%, 100% / 0.8); 
+    backdrop-filter: blur(12px);
+
     display: flex;
     justify-content: center;
-    padding: 3.7vh;
-    z-index: 0;
+
+    padding-left:50%;
+    padding-right: 50%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    
+    z-index: 100;
+    position: fixed;
+    
     
 }
+
 
 /* list config */
 .menu ul{
@@ -20,14 +30,17 @@
 
 .menu a{
     
-    color: gold;       
-    text-decoration: none; 
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: hsl(160, 5%, 45%);
+    
 
 }
 
 .menu a:hover{
 
-    color: ghostwhite;
+    color: hsl(160, 25%, 35%);
 }
 
 
