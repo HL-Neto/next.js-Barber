@@ -32,6 +32,16 @@ export default function Menu(){
                            
                     </nav>
             </section>
+
+            <section >
+                    <nav>
+                        <ul className={styles.left_menu}>
+                            <li ><a href=";">C</a></li>
+                            <li ><a href=";">C</a></li>
+                        </ul>
+                           
+                    </nav>
+            </section>
         
         </div> 
 
