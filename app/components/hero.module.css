@@ -1,11 +1,15 @@
-/*container da logo*/
+/*container hero*/
 .hero{
-    background-color: red;
+    background-image: url('@/app/assets/hero-barbershop.jpg');
     padding: 20%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 /* posição da logo */
