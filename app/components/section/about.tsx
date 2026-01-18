@@ -1,6 +1,6 @@
 import styles from "./about.module.css"
 import Image from "next/image";
-import Logo from "@/app/assets/Sobre nos logo.png"
+import Logo from "@/app/assets/Sobre nos Logo.jpg"
 
 
 export default function About(){
@@ -14,7 +14,6 @@ export default function About(){
                 <Image
                 src={Logo}
                 alt="Ferreira's Barber Studio"
-                className="mw-[150px]"
                 priority></Image>
                 
             </div>
@@ -22,7 +21,7 @@ export default function About(){
   
             <div className={styles.textContent}>
                 
-                <h1 className="text-primary text-sm uppercase tracking-widest font-body">
+                <h1 className="text-primary text-sm uppercase tracking-widest font-body pb-4">
                 Nossa História
                 </h1>
 
@@ -31,7 +30,7 @@ export default function About(){
                 <span className="block">Reinventa</span>
                 </h2>
 
-                <div className="space-y-4 text-muted-foreground font-body leading-relaxed mt-6">
+                <div className="space-y-4 text-muted-foreground font-body leading-relaxed mt-6 pb-10">
                    
                     <p>
                         Desde 2015, combinamos técnicas clássicas de barbearia
@@ -46,7 +45,22 @@ export default function About(){
                     </p>
                 
                 </div>
-            
+
+                <div className="grid grid-cols-3  pt-8 border-t border-border">
+                    <div className="font-display text-3xl md:text-4xl font-bold text-primary">
+                        9+ <div className="text-sm text-muted-foreground mt-1">Anos de experiência</div>
+                    </div>
+                    
+                    <div className="font-display text-3xl md:text-4xl font-bold text-primary">
+                        15k <div className="text-sm text-muted-foreground mt-1">Clientes satisfeitos</div>
+                    </div>
+
+                    <div className="font-display text-3xl md:text-4xl font-bold text-primary">
+                        5  <div className="text-sm text-muted-foreground mt-1">Barbeiros experts</div>
+                    </div>
+
+                </div>
+                
             </div>
 
         </div>

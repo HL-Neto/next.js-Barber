@@ -1,19 +1,22 @@
 .about {
   display: flex;
   align-items: center;
-  gap: 4rem;
+  height: 80vh;
 }
 
 
 .imageWrapper {
   display: flex;
   justify-content: flex-start;
+  padding-left: 20%;
+  
 }
 
 
 .textContent {
   display: flex;
   flex-direction: column;
-  align-items: flex-end; 
-  text-align: right;
+  text-align:left;
+  padding-left: 5%;
+  
 }

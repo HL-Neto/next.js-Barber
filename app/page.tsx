@@ -4,6 +4,7 @@ import About from "@/app/components/section/about"
 import Agendamento from "./components/section/agendamento";
 import Service from "@/app/components/section/service"
 import Footer from "./components/footer";
+import Local from "./components/section/local"
 
 
 
@@ -22,7 +23,7 @@ export default function Home() {
 
       <Agendamento/>
 
-      
+      <Local/>      
 
       <Footer/>
     

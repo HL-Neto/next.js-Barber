@@ -1,0 +1,22 @@
+.local{
+
+  display: flex;
+  padding: 5%;
+  padding-left: 5%; 
+  gap:40px;
+   
+}
+.localbox{
+
+  display: flex;
+  flex-direction:column;
+  text-align:left;
+  width: 56%;
+  
+
+  gap: 20px;
+  
+}
+.map{
+  width: 50%;
+}

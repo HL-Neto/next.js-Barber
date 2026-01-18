@@ -1,6 +1,6 @@
 import styles from "./agendamento.module.css"
 import { Button } from "@/components/ui/button";
-import { Phone, Instagram, MapPin } from "lucide-react";
+import { MessageCircle, Phone } from "lucide-react";
 
 
 export default function agendamento(){
@@ -30,22 +30,33 @@ export default function agendamento(){
 
             <div className="  flex gap-4 pb-10 ">
                 
-                <Button  size="lg"> <Phone className="w-5 h-5" />(11) 99999-9999</Button>
-                <Button  size="lg" className="pr-16"> <Instagram className="w-5 h-5"/>@barbearia</Button>
-            
-            </div>
-
-            <div className="bg-secondary/50 border border-border p-4  ">
+                <div className="bg-secondary/50 border border-border p-4">
                 
-                <MapPin className="w-8 h-8 text-primary mx-auto mb-4" />
-                <h3 className="font-display text-xl font-semibold mb-2">Nossa Localização</h3>
-                <p className="text-muted-foreground font-body">
-                Rua NaoSei, 1234 - Tambauzinho<br />
-                João Pessoa - PB, 01304-001
-                </p>
-            
+                    < MessageCircle  className="w-8 h-8 text-primary mx-auto mb-4" />
+                    <h3 className="font-display text-xl font-semibold mb-2">Agende pelo WhatsApp</h3>
+                    <p className="text-muted-foreground font-body mb-4">
+                    Envie uma menssagem e marque seu<br/> horário com facilidade
+                    </p>
 
+                    <Button  size="lg"> <MessageCircle className="w-5 h-5" />CHAMAR NO WHATSAPP</Button>
+                
+                </div>
+
+                   <div className="bg-secondary/50 border border-border p-4">
+                
+                    < Phone className="w-8 h-8 text-primary mx-auto mb-4" />
+                    <h3 className="font-display text-xl font-semibold mb-2">Agende pelo WhatsApp</h3>
+                    <p className="text-muted-foreground font-body mb-4">
+                    Envie uma menssagem e marque seu<br/> horário com facilidade
+                    </p>
+
+                    <Button  size="lg"> <Phone className="w-5 h-5" />CHAMAR NO WHATSAPP</Button>
+                
+                </div>
+            
             </div>
+
+          
 
             
 
