@@ -2,10 +2,13 @@
 .hero{
     background-image: url('@/app/assets/hero-barbershop.jpg');
     padding: 20%;
-    position: relative;
+    padding-bottom: 10%;
+    
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column; /* 🔑 */
+    align-items: center;     /* centraliza horizontal */
+    justify-content: center; /* controla o eixo vertical */
+
 
     background-size: cover; 
     background-position: center; 
