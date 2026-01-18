@@ -1,17 +1,11 @@
 .agendamento{
-
-   
-    
+ 
     padding: 20%;
     padding-bottom: 10%;
     
     display: flex;
-    flex-direction: column; /* 🔑 */
-    align-items: center;     /* centraliza horizontal */
-    justify-content: center; /* controla o eixo vertical */
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center; 
 
-
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
 }
