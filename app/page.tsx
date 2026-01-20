@@ -8,6 +8,7 @@ import Local from "./components/section/local"
 
 
 
+
 export default function Home() {
   return (
     
@@ -16,18 +17,16 @@ export default function Home() {
       <Menu/> 
 
       <Hero/>
+      
+      <About/> 
 
       <Service/>
 
-      <About/> 
-
-      
+      <Agendamento/> 
 
       
 
       <Local/>     
-
-      <Agendamento/> 
 
       <Footer/>
     

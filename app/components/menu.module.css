@@ -6,11 +6,13 @@
 
     display: flex;
     justify-content: center;
+    
 
-    padding-left:50%;
+    padding-left:37%;
     padding-right: 50%;
     padding-bottom: 2%;
     padding-top: 2%;
+    
     
     z-index: 100;
     position: fixed;
@@ -23,9 +25,11 @@
 /* list config */
 .menu ul{
 
+    
     list-style-type: none;
     display: flex;
     
+    gap:100px
 
 }
 
@@ -38,11 +42,10 @@
     
 
 }
-
 .menu a:hover{
-
-    color: hsl(160, 25%, 35%);
+     color: hsl(180, 10%, 60%);
 }
+
 
 
 /* itens positions & styles */
@@ -55,17 +58,6 @@
     left: 0;
 }
 
-.right_menu{
-      
-    position: absolute;
-    right: 100;
-}
-
-.left_menu{
-    
-    position: absolute;
-    left: 50;
-}
 
 
 

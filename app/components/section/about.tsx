@@ -34,7 +34,7 @@ export default function About(){
                    
                     <p>
                         Desde 2018, combinamos técnicas clássicas de barbearia
-                        com as tendências mais modernas. Cada corte é uma experiência única,
+                        com as tendências mais modernas.<br/> Cada corte é uma experiência única,
                         pensada para realçar sua personalidade.
                     </p>
 
