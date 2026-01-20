@@ -1,14 +1,14 @@
 .about {
   display: flex;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
 }
 
 
 .imageWrapper {
   display: flex;
   justify-content: flex-start;
-  padding-left: 20%;
+  padding-left: 10%;
   
 }
 

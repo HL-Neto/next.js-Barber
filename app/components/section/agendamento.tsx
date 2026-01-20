@@ -14,7 +14,7 @@ export default function agendamento(){
                 Pronto para uma transformação? 
             </span>
             
-            <span className="font-display text-4xl md:text-6xl font-bold mt-4 mb-6 ">
+            <span className="font-display text-4xl md:text-6xl font-bold mt-4 mb-6  text-title">
                 Agende seu Horário
             </span>
             
@@ -30,9 +30,9 @@ export default function agendamento(){
 
             <div className="  flex gap-4 pb-10 ">
                 
-                <div className="bg-secondary/50 border border-border p-4">
+                <div className="bg-secondary/50 border border-border p-24">
                 
-                    < MessageCircle  className="w-8 h-8 text-primary mx-auto mb-4" />
+                    < MessageCircle  className="w-10 h-10 text-primary mx-auto mb-4 " />
                     <h3 className="font-display text-xl font-semibold mb-2">Agende pelo WhatsApp</h3>
                     <p className="text-muted-foreground font-body mb-4">
                     Envie uma menssagem e marque seu<br/> horário com facilidade
@@ -42,15 +42,15 @@ export default function agendamento(){
                 
                 </div>
 
-                   <div className="bg-secondary/50 border border-border p-4">
+                   <div className="bg-secondary/50 border border-border p-24">
                 
-                    < Phone className="w-8 h-8 text-primary mx-auto mb-4" />
-                    <h3 className="font-display text-xl font-semibold mb-2">Agende pelo WhatsApp</h3>
+                    < Phone className="w-10 h-10 text-primary mx-auto mb-4" />
+                    <h3 className="font-display text-xl font-semibold mb-2">Agende pelo Telefone</h3>
                     <p className="text-muted-foreground font-body mb-4">
-                    Envie uma menssagem e marque seu<br/> horário com facilidade
+                    Nos ligue a qualquer momento <br/> estaremos esperando
                     </p>
 
-                    <Button  size="lg"> <Phone className="w-5 h-5" />CHAMAR NO WHATSAPP</Button>
+                    <Button  size="lg"> <Phone className="w-5 h-5" />FAZER UMA LIGAÇÃO</Button>
                 
                 </div>
             
