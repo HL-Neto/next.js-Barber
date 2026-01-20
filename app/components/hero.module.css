@@ -24,7 +24,7 @@
 .bg_overlay {
   position: absolute;
   inset: 0;
-  backdrop-filter: blur(4px);
+ 
   background: rgba(0, 0, 0, 0.5);
   z-index:1;
 }

@@ -27,6 +27,8 @@ module.exports = {
         title: 'hsl(160 60% 25%)', // verde jade escuro (títulos)
         body: 'hsl(0 0% 10%)',     // preto suave (textos)
 
+        whatsapp: "#25D366",
+        
         card: {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))'

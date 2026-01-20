@@ -8,18 +8,18 @@ export default function Footer(){
         <div  className={styles.local}> 
 
             <div className={styles.localbox}>
-                <div className="bg-secondary/50 border border-border p-5  ">
+                <div className="bg-secondary/50 border border-border rounded-lg p-5 hover:shadow-xl transition-shadow duration-300 hover:scale-105 transition-transform duration-300 hover:bg-black/10 ">
                     
-                    <MapPin className="w-8 h-8 text-primary mx-auto mb-4" />
-                    <h3 className="font-display text-xl font-semibold mb-2">Endereço</h3>
+                    <MapPin className="w-8 h-8 text-primary mx-auto mb-4 text-red-700" />
+                    <h3 className="font-display text-xl font-semibold mb-2 text-red-700">Endereço</h3>
                     <p>Rua das Barbearias, 123 Miramar - João Pessoa, PB</p>
                  
                 </div>
-                <div className="bg-secondary/50 border border-border p-5  ">
+                <div className="bg-secondary/50 border border-border rounded-lg  p-5 hover:shadow-xl transition-shadow duration-300 hover:scale-105 transition-transform duration-300 hover:bg-black/10 ">
                     
-                    <Clock className="w-8 h-8 text-primary mx-auto mb-4" />
-                    <h3 className="font-display text-xl font-semibold mb-2">Funcionamento</h3>
-                    <p> Segunda a Sexta: 9h às 20h / Sábado: 9h às 18h</p>
+                    <Clock className="w-8 h-8 text-primary mx-auto mb-4 text-yellow-500" />
+                    <h3 className="font-display text-xl font-semibold mb-2 text-yellow-500">Funcionamento</h3>
+                    <p> Segunda a Sexta: 10h às 19h / Sábado: 10h às 19h / Domingo: Fechado</p>
                     
                 </div>
 

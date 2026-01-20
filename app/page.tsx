@@ -17,13 +17,17 @@ export default function Home() {
 
       <Hero/>
 
-      <About/> 
-
       <Service/>
 
-      <Agendamento/>
+      <About/> 
 
-      <Local/>      
+      
+
+      
+
+      <Local/>     
+
+      <Agendamento/> 
 
       <Footer/>
     

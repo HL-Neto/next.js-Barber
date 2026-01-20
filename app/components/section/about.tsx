@@ -33,7 +33,7 @@ export default function About(){
                 <div className="space-y-4 text-muted-foreground font-body leading-relaxed mt-6 pb-10">
                    
                     <p>
-                        Desde 2015, combinamos técnicas clássicas de barbearia
+                        Desde 2018, combinamos técnicas clássicas de barbearia
                         com as tendências mais modernas. Cada corte é uma experiência única,
                         pensada para realçar sua personalidade.
                     </p>
@@ -48,7 +48,7 @@ export default function About(){
 
                 <div className="grid grid-cols-3  pt-8 border-t border-border ">
                     <div className="font-display text-3xl md:text-4xl font-bold text-primary text-title">
-                        9+ <div className="text-sm text-muted-foreground mt-1">Anos de experiência</div>
+                        7+ <div className="text-sm text-muted-foreground mt-1">Anos de experiência</div>
                     </div>
                     
                     <div className="font-display text-3xl md:text-4xl font-bold text-primary text-title">
@@ -56,7 +56,7 @@ export default function About(){
                     </div>
 
                     <div className="font-display text-3xl md:text-4xl font-bold text-primary text-title">
-                        5  <div className="text-sm text-muted-foreground mt-1">Barbeiros experts</div>
+                        1 <div className="text-sm text-muted-foreground mt-1">Barbeiro expert</div>
                     </div>
 
                 </div>
