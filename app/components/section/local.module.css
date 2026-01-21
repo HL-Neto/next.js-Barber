@@ -4,6 +4,8 @@
   flex-direction: column; /* mobile empilha tudo */
   padding: 2%;
   gap: 2rem;
+  padding-bottom: 6rem;
+  padding-top: 2rem;
 }
 
 /* Título */

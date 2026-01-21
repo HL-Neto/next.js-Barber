@@ -33,6 +33,7 @@ export default function Local() {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           title="Localização Ferreira's Barber Studio"
+          
         />
       </div>
     </div>

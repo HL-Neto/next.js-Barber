@@ -13,11 +13,11 @@
 .colum {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 por linha no mobile */
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .colum > div {
-  max-width: 120px; /* tamanho padrão mobile */
+  max-width: 100px; /* tamanho padrão mobile */
   height: auto;     /* altura automática */
 }
 
