@@ -18,13 +18,11 @@ export default function Home() {
 
       <Hero/>
       
-      <About/> 
-
       <Service/>
 
-      <Agendamento/> 
+      <About/> 
 
-      
+      <Agendamento/> 
 
       <Local/>     
 
