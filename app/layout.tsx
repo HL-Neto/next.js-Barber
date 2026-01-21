@@ -15,8 +15,12 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Meu Projeto",
-  description: "App limpo",
+  title: "Ferreira's Barber",
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
