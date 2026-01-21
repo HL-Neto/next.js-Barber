@@ -1,41 +1,30 @@
 .service_body {
   background: hsl(160, 10%, 97%);
-  padding: 5% ;
+  padding: 5%;
 }
 
 .service {
   display: flex;
-
   justify-content: center;
- 
+  flex-wrap: wrap; /* mobile também permite quebrar linhas */
 }
 
 /* CADA COLUNA */
 .colum {
-  display: flex;
-  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 por linha no mobile */
+  gap: 1.5rem;
 }
 
-
-@media (min-width: 450px) {
-  .service {
-    flex-wrap: wrap;
-  }
-
-  .colum {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-  }
-
-  .colum > div {
-    
-    max-width: 120px;
-  }
+.colum > div {
+  max-width: 120px; /* tamanho padrão mobile */
+  height: auto;     /* altura automática */
 }
+
+/* DESKTOP */
 @media (min-width: 1024px) {
   .colum > div {
-    max-width: 280px; /* aumentou de 120px para 220px */
+    max-width: 280px; /* maior no desktop */
     height: 240px;    /* define altura maior */
   }
 
@@ -43,5 +32,3 @@
     gap: 2.5rem; /* mais espaço entre as caixas */
   }
 }
-
-
