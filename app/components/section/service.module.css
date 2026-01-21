@@ -17,7 +17,7 @@
 }
 
 
-@media (min-width: 480px) {
+@media (min-width: 450px) {
   .service {
     flex-wrap: wrap;
   }
