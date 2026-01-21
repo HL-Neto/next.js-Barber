@@ -1,7 +1,5 @@
 import styles from "./menu.module.css"
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
-import Logo from "@/app/assets/Logo do Ferreira's Barber Studio.png";
+
 
 export default function Menu(){
     return (

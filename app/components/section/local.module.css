@@ -1,28 +1,69 @@
-.local{
+.local {
   background: hsl(160, 10%, 97%);
   display: flex;
-  padding: 8%;
-  padding-left: 5%; 
-  gap:40px;
-   
+  flex-direction: column; /* mobile empilha tudo */
+  padding: 2%;
+  gap: 2rem;
 }
-.localbox{
 
+/* Título */
+.local h1 {
+ 
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+
+/* Caixa de informações */
+.localbox {
   display: flex;
-  flex-direction:column;
-  text-align:left;
-  width: 56%;
-  
-
-  gap: 20px;
-  
-}
-.map{
-  width: 50%;
+  flex-direction: row; /* mobile: horizontal */
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
 }
 
-.infoimage{
-
-  height: 10vh;
+.localbox > div {
+  flex: 1; /* cada caixa ocupa metade da largura da localbox no mobile */
+  min-width: 120px;
+  text-align: left;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid hsl(0,0%,80%);
+  background: hsl(0,0%,95%);
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
 }
-  
+
+.localbox > div:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  background: hsl(0,0%,92%);
+}
+
+/* Mapa */
+.map {
+  width: 100%;
+  height: 250px;
+  margin-top: 1.5rem;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .local {
+    flex-direction: row; /* coluna esquerda + mapa à direita */
+    gap: 4%;
+  }
+
+  .localbox {
+    flex-direction: column; /* empilha as duas caixas verticalmente */
+    width: 50%;
+    gap: 1rem;
+  }
+
+  .map {
+    width: 50%;
+    height: auto; /* altura vai se ajustar pelo conteúdo das caixas */
+  }
+}

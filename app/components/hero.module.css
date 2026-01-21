@@ -1,54 +1,59 @@
-/*container hero*/
-.hero{
-    position: relative;
-    inset: 0;
+/* CONTAINER HERO */
+.hero {
+  position: relative;
+  min-height: 6vh;
 
-    min-height: 90vh;
-
-    background-image: url(@/app/assets/back.png);
-    
-    
-    display: flex;
-    flex-direction: column; 
-    align-items: center;     
-    justify-content: center; 
-
-
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    
-    
+  background-image: url("@/app/assets/back.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+/* OVERLAY */
 .bg_overlay {
   position: absolute;
   inset: 0;
- 
   background: rgba(0, 0, 0, 0.5);
-  z-index:1;
+  z-index: 1;
+  
+}
+
+/* CONTAINER LOGO */
+.center_logo {
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  padding: 0 1rem; /* mobile */
+}
+
+/* LOGO */
+.logo {
+  
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  max-width: 260px; /* mobile */
+  height: auto;
 }
 
 
 
-/* posição da logo */
-.center_logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:100%;
-    height: 10vh;
+/* DESKTOP */
+@media (min-width: 1024px) {
+  .logo {
+    max-width: 900px;
+    
+  }
+  
+  
 }
-
-/* ajustes na logo */
-.logo{
-    
-    
-    position: relative;
-    z-index: 2;
-    max-width: 850px;
-    height: auto;
-    
-}
-
-

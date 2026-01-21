@@ -1,22 +1,52 @@
 .about {
   display: flex;
-  align-items: center;
-  height: 100vh;
+  flex-direction: column; /* MOBILE: empilha */
+  gap: 2rem;
+
+  padding: 3rem 1rem;
 }
 
-
-.imageWrapper {
-  display: flex;
-  justify-content: flex-start;
-  padding-left: 10%;
-  
-}
-
-
+/* TEXTO */
 .textContent {
   display: flex;
   flex-direction: column;
-  text-align:left;
-  padding-left: 5%;
-  
+  text-align: left;
+}
+
+/* IMAGEM */
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.imageWrapper img {
+  width: 100%;
+  max-width: 100%; /* imagem larga no mobile */
+  height: auto;
+  border-radius: 12px; /* opcional, fica bonito */
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+  .about {
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  .imageWrapper {
+    justify-content: flex-start;
+    padding-left: 10%;
+  }
+
+  .imageWrapper img {
+    min-width: 420px;
+  }
+
+  .textContent {
+    padding-left: 5%;
+  }
 }

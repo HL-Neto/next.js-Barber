@@ -1,19 +1,47 @@
-.service_body
-{
-    background: hsl(160, 10%, 97%);
-    padding-bottom: 10%;
-    padding-top: 5% ;
+.service_body {
+  background: hsl(160, 10%, 97%);
+  padding: 5% ;
 }
-.service{
+
+.service {
+  display: flex;
+
+  justify-content: center;
+ 
+}
+
+/* CADA COLUNA */
+.colum {
+  display: flex;
+  
+}
+
+
+@media (min-width: 480px) {
+  .service {
+    flex-wrap: wrap;
+  }
+
+  .colum {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .colum > div {
     
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    
+    max-width: 120px;
+  }
 }
-.colum{
-    padding-top: 3% ;
-    display: flex;
-    justify-content: center;
-    gap: 3%;
+@media (min-width: 1024px) {
+  .colum > div {
+    max-width: 280px; /* aumentou de 120px para 220px */
+    height: 240px;    /* define altura maior */
+  }
+
+  .colum {
+    gap: 2.5rem; /* mais espaço entre as caixas */
+  }
 }
+
+

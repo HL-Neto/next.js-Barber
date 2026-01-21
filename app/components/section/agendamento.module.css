@@ -1,11 +1,61 @@
-.agendamento{
- 
-    padding: 10%;
-    padding-bottom: 10%;
-    
-    display: flex;
-    flex-direction: column; 
-    align-items: center;    
-    justify-content: center; 
+.agendamento {
+  padding: 5% 2%; /* mobile-friendly */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
+/* Container dos blocos */
+.blocos {
+  display: flex;
+  flex-direction: column; /* mobile: empilhado */
+  gap: 2rem; /* espaço entre blocos */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Cada bloco */
+.bloco {
+  width: 100%;
+  max-width: 350px; /* largura padrão */
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid hsl(0, 0%, 80%);
+  background: hsl(0,0%,95%);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.bloco:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  background: hsl(0,0%,92%);
+}
+
+
+
+/* TABLET / DESKTOP */
+@media (min-width: 768px) {
+  .blocos {
+    flex-direction: row; /* lado a lado */
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .bloco {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .agendamento {
+    padding: 5% 10%;
+  }
+
+  .bloco {
+    max-width: 350px;
+  }
 }

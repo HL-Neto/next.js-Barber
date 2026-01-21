@@ -46,20 +46,29 @@ export default function About(){
                 
                 </div>
 
-                <div className="grid grid-cols-3  pt-8 border-t border-border ">
-                    <div className="font-display text-3xl md:text-4xl font-bold text-primary text-title">
-                        7+ <div className="text-sm text-muted-foreground mt-1">Anos de experiência</div>
-                    </div>
-                    
-                    <div className="font-display text-3xl md:text-4xl font-bold text-primary text-title">
-                        15k <div className="text-sm text-muted-foreground mt-1">Clientes satisfeitos</div>
-                    </div>
-
-                    <div className="font-display text-3xl md:text-4xl font-bold text-primary text-title">
-                        1 <div className="text-sm text-muted-foreground mt-1">Barbeiro expert</div>
+                <div className="grid grid-cols-3 gap-3 pt-8 border-t border-border text-center">
+                    <div className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-primary text-title">
+                        7+
+                        <div className="text-xs sm:text-sm text-muted-foreground mt-1">
+                        Anos de experiência
+                        </div>
                     </div>
 
+                    <div className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-primary text-title">
+                        15k
+                        <div className="text-xs sm:text-sm text-muted-foreground mt-1">
+                        Clientes satisfeitos
+                        </div>
+                    </div>
+
+                    <div className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-primary text-title">
+                        1
+                        <div className="text-xs sm:text-sm text-muted-foreground mt-1">
+                        Barbeiro expert
+                        </div>
+                    </div>
                 </div>
+
                 
             </div>
 
